@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: none;
+ }
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1581196607303-95c00f31c676?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+}
+#main #card
+{
+    width: 450px;
+    height: 450px;
+    box-shadow: 0px 0px 20px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-image: url(https://images.unsplash.com/photo-1489674267075-cee793167910?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: right;
+    opacity: .8;
+}
+h1
+{
+    color: black;
+    font-size: 40px;
+}
+input
+{
+    width: 80%;
+    font-size: 1.3vw;
+    border: 1px solid black;
+    height: 10%;
+}
+#btns
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+button {
+    color: #545454;
+    border: 1px solid black;
+    font-size: 1.3vw;
+    padding: 10px;
+    width: 30%;
+}
